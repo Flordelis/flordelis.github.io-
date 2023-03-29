@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-poligonal-azul-numeros-binarios_1055-1917.jpg?w=740&t=st=1677620900~exp=1677621500~hmac=b99c85e3d231b98bfbef7ad628a150889cadf68122fd09c50a01fe14d394251c);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .wrap{
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+    }
+    
+    ul.tabs{
+    width: 100%;
+    background: #363636;
+    list-style: none;
+    display: flex;
+    }
+    .img {  
+    background-image: url(https://cdn.pixabay.com/photo/2014/11/24/16/22/secretary-544180_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25%;
+     margin: 0;
+    }
+    ul.tabs li{
+    width: 18%;
+    }
+    
+    ul.tabs li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+    }
+    
+    .active{
+    background: #0984CC;
+    }
+    
+    ul.tabs li a .tab-text{
+    margin-left: 8px;
+    }
+    
+    .secciones{
+    width: 100%;
+    background: #fff;
+    }
+    
+    .secciones article{
+    padding: 30px;
+    }
+    
+    .secciones article p{
+    text-align: justify;
+    }
+    
+    
+    @media screen and (max-width: 700px){
+    ul.tabs li{
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;
+    }
+    }
+    .colorfuente {
+     color: #0f5966;
+    }
+    
+    @media screen and (max-width: 450px){
+    ul.tabs li a{
+    padding: 15px 0px;
+    }
+    
+    ul.tabs li a .tab-text{
+    display: none;
+    }
+    
+    .secciones article{
+    padding: 20px;
+    }
+    }
